@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Created by IntelliJ IDEA.
+  User: Николай
+  Date: 15.11.2021
+  Time: 21:23
+-->
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html">
+
+<h:head>
+    <link rel="stylesheet" type="text/css" href="resources/styles/style.css"/>
+    <title>Лаба 3</title>
+    <h:outputStylesheet library="styles" name="style.css"/>
+</h:head>
+
+<h:body>
+    <div class="header">
+        <span>Гониченко Николай Иванович. P3232. Вариант: 328763</span>
+    </div>
+    <div class="linker">
+        <h:link outcome="goToMain">
+            <button class="goToButton" type="submit">
+                <b>Go to main</b>
+            </button>
+        </h:link>
+    </div>
+    <div class="footer">
+        <span id="timeSpan"></span>
+    </div>
+</h:body>
+<h:outputScript library="js" name="clock.js" />
+</html>
